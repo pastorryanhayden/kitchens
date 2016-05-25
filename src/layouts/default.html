@@ -11,10 +11,11 @@
     <script src="https://use.fontawesome.com/56cd9f38a7.js"></script>
   </head>
   <body>
-
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+  {{> header}}
+  <main>
     {{> body}}
-
+  </main>    
+    {{> footer}}
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>
